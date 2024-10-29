@@ -9,6 +9,12 @@
 html 
 {
     scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body
+{
+    overflow-x: hidden;
 }
 
 nav
@@ -205,7 +211,8 @@ nav
 {
     background-image: url(/6709650573_MyCSTUStory_03/resources/bg4.gif);
     background-repeat: no-repeat;
-    background-size: 200vh;
+    background-size: cover;
+    width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: left;
