@@ -85,7 +85,7 @@ nav
     height: 3px;
     background-color: #000000;
     margin: 5px 0;
-    transition: transform 0.3s ease; /* Smooth transition for the icon */
+    transition: transform 0.3s ease; 
 }
 
 /* Transform the hamburger icon into an "X" when checked */
@@ -114,7 +114,7 @@ nav
 @media (min-width: 780px)
 {
     .menuwrap {
-        max-height: none; /* Ensure it's always visible */
+        max-height: none; 
     }
 
     .menuwrap ul {
@@ -191,7 +191,7 @@ nav
 
 .journeybanner
 {
-    background-image: url(/6709650573_MyCSTUStory/resources/bg3.png);
+    background-image: url(/6709650573_MyCSTUStory_03/resources/bg3.png);
     background-repeat: no-repeat;
     background-size: 100%;
     height: 80vh;
@@ -203,7 +203,7 @@ nav
 
 .indexbanner
 {
-    background-image: url(/6709650573_MyCSTUStory/resources/bg4.gif);
+    background-image: url(/6709650573_MyCSTUStory_03/resources/bg4.gif);
     background-repeat: no-repeat;
     background-size: 200vh;
     height: 100vh;
@@ -216,7 +216,7 @@ nav
 
 .futurebanner
 {
-    background-image: url(/6709650573_MyCSTUStory/resources/bg6.jpg);
+    background-image: url(/6709650573_MyCSTUStory_03/resources/bg6.jpg);
     background-repeat: no-repeat;
     background-size: 200vh;
     height: 130vh;
