@@ -47,9 +47,9 @@ nav
 .menuwrap
 {
     display: block;
-    max-height: 0; /* Start with hidden content */
+    max-height: 0; 
     overflow: hidden;
-    transition: max-height 0.5s ease-out; /* Smooth transition */
+    transition: max-height 0.5s ease-out; 
     margin-left: -150px;
     margin-top: 20px;
 }
@@ -96,7 +96,7 @@ nav
     transition: transform 0.3s ease; 
 }
 
-/* Transform the hamburger icon into an "X" when checked */
+
 .menu-toggle:checked + .menu-icon span:nth-child(1)
 {
     transform: rotate(45deg) translate(5px, 5px);
@@ -104,7 +104,7 @@ nav
 
 .menu-toggle:checked + .menu-icon span:nth-child(2)
 {
-    opacity: 0; /* Hide the middle line */
+    opacity: 0; 
 }
 
 .menu-toggle:checked + .menu-icon span:nth-child(3)
@@ -112,9 +112,9 @@ nav
     transform: rotate(-45deg) translate(5px, -5px);
 }
 
-/* Smoothly expand the menu when checked */
-.menu-toggle:checked + .menu-icon + .menuwrap {
-    max-height: 300px; /* Adjust this value depending on the number of items */
+.menu-toggle:checked + .menu-icon + .menuwrap 
+{
+    max-height: 300px; 
     transition: max-height 0.5s ease-in;
 }
 
@@ -428,11 +428,11 @@ nav
 
 #aboutme
 {
-    background: linear-gradient(to bottom, #0d1b2a, #1b263b, #415a77); /* Space-like gradient */
+    background: linear-gradient(to bottom, #0d1b2a, #1b263b, #415a77); 
     color: white;
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: 125vh;
     width: auto;
     display: flex;
     align-items: center;
@@ -448,12 +448,10 @@ nav
     color: #fff;
     border-radius: 15px;
     padding: 20px;
-    width: auto;
-    height: auto;
+    max-width: 960px;
     box-shadow: 0 0 50px rgba(70, 130, 180, 0.8);
     transform: translate(-7px, -7px);
     transition: all 0.3s ease;
-    align-items: center;
 }
 
 .box2
@@ -463,12 +461,12 @@ nav
     color: #fff;
     border-radius: 15px;
     padding: 20px;
-    width: auto;
-    height: auto;
+    max-width: 1000px;
     box-shadow: 0 0 15px rgba(0, 255, 255, 0.8);
     transform: translate(-7px, -7px);
     transition: all 0.3s ease;
 }
+
 
 video
 {
@@ -589,17 +587,6 @@ footer
 
 @media (max-width: 1000px)
 {
-    .box1
-    {
-        width: auto;
-    }
-
-    .box2
-    {
-        width: auto;
-        
-    }
-
     .box1 img
     {
         width: 220px;
@@ -620,10 +607,6 @@ footer
         
     }
 
-    #aboutme
-    {
-        height: 110vh;
-    }
 }
 
 @media (min-width: 650px)
@@ -643,7 +626,7 @@ footer
     {
         width: 320px;
         margin-top: -200px;
-        margin-left: 500px;
+        margin-left: 450px;
     }
 
 }
